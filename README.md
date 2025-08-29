@@ -1,5 +1,5 @@
 F.D.R. System Interface // Portfólio de Fernando D. Roque
-Bem-vindo à interface do meu portfólio pessoal. Este projeto é uma aplicação web interativa desenvolvida com uma estética Retrofuturista Utilitária, fortemente inspirada na UI de animes sci-fi como Neon Genesis Evangelion e em terminais de computador dos anos 90.
+Bem-vindo à interface do meu portfólio pessoal. Este projeto é uma aplicação web interativa desenvolvida com uma estética Retrofuturista Utilitáriav e em terminais de computador dos anos 90.
 
 O objetivo é apresentar meus projetos e habilidades de uma forma imersiva e que reflita minha paixão por criar soluções tecnológicas eficientes e criativas.
 
@@ -11,10 +11,6 @@ A interface foi construída sobre alguns pilares de design:
 Estética CRT Futurism: O design simula um antigo monitor de tubo de raios catódicos (CRT), com fundo preto, textos monospaçados com efeito de brilho (glow), e elementos visuais como scanlines e "flicker" para aumentar a imersão.
 
 Navegação de Terminal: A experiência do usuário abandona o modelo de site tradicional. A navegação funciona como um sistema operacional de tela única, onde as seções são "módulos" ou "programas" carregados na tela principal.
-
-Layout Data-Driven: O layout é denso e focado em apresentar informações de forma direta, como em um painel de controle ou sistema de diagnóstico.
-
-Animações Sutis: Animações como a sequência de "boot-up" inicial e a renderização de texto contribuem para a autenticidade da experiência.
 
 // Especificações do Sistema (Tecnologias)
 Este projeto foi construído com uma stack moderna para garantir performance e escalabilidade:
