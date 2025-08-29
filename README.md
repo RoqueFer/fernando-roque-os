@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+F.D.R. System Interface // Portfólio de Fernando D. Roque
+Bem-vindo à interface do meu portfólio pessoal. Este projeto é uma aplicação web interativa desenvolvida com uma estética Retrofuturista Utilitária, fortemente inspirada na UI de animes sci-fi como Neon Genesis Evangelion e em terminais de computador dos anos 90.
 
-## Project info
+O objetivo é apresentar meus projetos e habilidades de uma forma imersiva e que reflita minha paixão por criar soluções tecnológicas eficientes e criativas.
 
-**URL**: https://lovable.dev/projects/fdc16853-1e71-4fa2-be12-15e0c298d620
+>> [Acessar a Interface (URL do Site)](https://fernando-roque-os.vercel.app/) <<
 
-## How can I edit this code?
+// Conceitos e Funcionalidades
+A interface foi construída sobre alguns pilares de design:
 
-There are several ways of editing your application.
+Estética CRT Futurism: O design simula um antigo monitor de tubo de raios catódicos (CRT), com fundo preto, textos monospaçados com efeito de brilho (glow), e elementos visuais como scanlines e "flicker" para aumentar a imersão.
 
-**Use Lovable**
+Navegação de Terminal: A experiência do usuário abandona o modelo de site tradicional. A navegação funciona como um sistema operacional de tela única, onde as seções são "módulos" ou "programas" carregados na tela principal.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fdc16853-1e71-4fa2-be12-15e0c298d620) and start prompting.
+Layout Data-Driven: O layout é denso e focado em apresentar informações de forma direta, como em um painel de controle ou sistema de diagnóstico.
 
-Changes made via Lovable will be committed automatically to this repo.
+Animações Sutis: Animações como a sequência de "boot-up" inicial e a renderização de texto contribuem para a autenticidade da experiência.
 
-**Use your preferred IDE**
+// Especificações do Sistema (Tecnologias)
+Este projeto foi construído com uma stack moderna para garantir performance e escalabilidade:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Vite: Build tool de alta performance para o frontend.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+React: Biblioteca principal para a construção da interface de usuário.
 
-Follow these steps:
+TypeScript: Para um código mais robusto e com tipagem estática.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Tailwind CSS: Framework CSS utility-first para estilização rápida e consistente.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+shadcn-ui: Coleção de componentes reutilizáveis.
 
-# Step 3: Install the necessary dependencies.
-npm i
+// Executando o Projeto Localmente
+Para clonar e executar a aplicação em seu ambiente de desenvolvimento local, siga os passos abaixo. É necessário ter Node.js e npm instalados.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Bash
+
+# 1. Clone o repositório
+git clone <URL_DO_SEU_REPOSITORIO_GIT>
+
+# 2. Navegue até o diretório do projeto
+cd <NOME_DO_PROJETO>
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
-```
+Após executar npm run dev, a aplicação estará disponível em http://localhost:5173 (ou outra porta indicada no terminal).
 
-**Edit a file directly in GitHub**
+// Deployment
+Este projeto foi construído com Vite e pode ser facilmente implantado em qualquer plataforma de hospedagem de sites estáticos, como Vercel, Netlify ou GitHub Pages.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/fdc16853-1e71-4fa2-be12-15e0c298d620) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+// Autor
+Fernando D. Roque - LinkedIn
