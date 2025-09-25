@@ -15,7 +15,7 @@ export const HeroSection = ({ onNavigate }: HeroSectionProps) => {
               FERNANDO_D_ROQUE
             </h1>
             <p className="text-xl md:text-2xl font-terminal terminal-glow-secondary uppercase">
-              DESENVOLVEDOR FULLSTACK | ESTUDANTE DE ENGENHARIA DE SOFTWARE
+    Engenheiro de Software & Arquiteto de Soluções
             </p>
             <p className="text-lg font-terminal terminal-glow">
               LOCALIZAÇÃO: CURITIBA_PR_BRASIL
